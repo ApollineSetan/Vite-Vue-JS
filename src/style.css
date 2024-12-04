@@ -1,79 +1,55 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
+.navbar-nav {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: flex-start; /* Aligner les éléments à gauche */
+  align-items: center; /* Centrer verticalement les éléments */
+  margin: 0;  /* Enlever les marges par défaut */
+  padding: 0;  /* Enlever les padding par défaut */
+  list-style: none;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.navbar-nav li {
+  display: flex;
+  align-items: center; /* Centrer verticalement chaque item */
+  color: #1a1a1a;
+  font-size: large;
+  margin-right: 30px;  /* Espacement entre les éléments (ajustez cette valeur) */
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+.navbar-nav li a {
+  color: #fff;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  display: flex;
+  align-items: center; /* Assurer que les liens sont centrés verticalement */
 }
 
-.card {
-  padding: 2em;
+.navbar-custom {
+  background-color: #343a40; /* Couleur de fond sombre */
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.navbar-custom .navbar-nav .nav-link {
+  color: #ffffff;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #646cff; /* Couleur au survol */
+}
+
+.dropdown-menu {
+  background-color: #000; /* Fond noir */
+  color: #fff; /* Texte en blanc */
+  border-radius: 5px; /* Coins arrondis */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère sous le menu */
+}
+
+/* Liens du menu déroulant */
+.dropdown-menu a {
+  color: #fff; /* Liens en blanc */
+  padding: 10px 20px; /* Espacement interne des éléments */
+  text-decoration: none; /* Enlever la sous-ligne */
+}
+
+/* Effet au survol des liens */
+.dropdown-menu a:hover {
+  color: #646cff; /* Liens en bleu au survol */
+  background-color: #f8f9fa; /* Fond clair au survol */
 }
