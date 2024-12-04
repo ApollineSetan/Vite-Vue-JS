@@ -91,11 +91,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <img
-              src="../assets/images/vue-wall.jpg"
-              class="img-fluid rounded shadow"
-              alt="Illustration des fonctionnalités"
-            />
+
           </div>
         </div>
       </div>
