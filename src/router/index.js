@@ -45,6 +45,16 @@ const router = createRouter({
             name: 'tpdatabinding',
             component: () => import('../exos/TPDataBinding.vue')
         },
+        {
+            path: '/exofour',
+            name: 'domeventsexo',
+            component: () => import('../exos/DOMEventsExo.vue')
+        },
+        {
+            path: '/exofive',
+            name: 'keyupeventexo',
+            component: () => import('../exos/keyupeventexo.vue')
+        },
     ]
 });
 

@@ -27,6 +27,8 @@
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exoone">Exercice (ref)</router-link></a>
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exotwo">Exercice (methods)</router-link></a>
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exothree">Exercice (databinding)</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exofour">Exercice (DOMEvents)</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exofive">Exercice (DOMEvents2)</router-link></a>
           </div>
         </li>
       </ul>
