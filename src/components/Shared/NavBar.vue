@@ -11,12 +11,22 @@
           <a class="nav-link" href="#"><router-link class="nav-link active" aria-current="page" to="/home">Home</router-link></a>
         </li>
 
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLessons" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Leçons</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownLessons">
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lessonone">L'interpolation de texte</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lessontwo">L'interpolation et méthodes</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lessonthree">AttributeBinding</router-link></a>
+          </div>
+        </li>
+
         <!-- Menu déroulant Lessons -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLessons" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Text Inter</a>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLessons" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Exercices</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownLessons">
-            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lesson-text">Lesson</router-link></a>
-            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exos-text">Exercice 1</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exoone">Exercice (ref)</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exotwo">Exercice (methods)</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exothree">Exercice (databinding)</router-link></a>
           </div>
         </li>
       </ul>

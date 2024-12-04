@@ -1,20 +1,20 @@
 <template>
   <div>
     <div class="mb-4">
-    <p>{{ composition1 }}</p>
-  </div>
+      <p>{{ composition1 }}</p>
+    </div>
 
-  <div class="mb-4">
-    <p>{{ composition2 }}</p>
-  </div>
+    <div class="mb-4">
+      <p>{{ composition2 }}</p>
+    </div>
 
-  <div class="mb-4">
-    <p>{{ composition3 }}</p>
-  </div>
+    <div class="mb-4">
+      <p>{{ composition3 }}</p>
+    </div>
 
-  <div class="mb-4">
-    <p>{{ composition4 }}</p>
-  </div>
+    <div class="mb-4">
+      <p>{{ composition4 }}</p>
+    </div>
   </div>
 </template>
 

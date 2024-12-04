@@ -2,17 +2,12 @@
   display: flex;
   justify-content: flex-start; /* Aligner les éléments à gauche */
   align-items: center; /* Centrer verticalement les éléments */
-  margin: 0;  /* Enlever les marges par défaut */
-  padding: 0;  /* Enlever les padding par défaut */
-  list-style: none;
 }
 
 .navbar-nav li {
   display: flex;
   align-items: center; /* Centrer verticalement chaque item */
-  color: #1a1a1a;
-  font-size: large;
-  margin-right: 30px;  /* Espacement entre les éléments (ajustez cette valeur) */
+  margin-right: 30px;  /* Espacement entre les éléments */
 }
 
 .navbar-nav li a {
@@ -35,20 +30,26 @@
 }
 
 .dropdown-menu {
-  background-color: #000; /* Fond noir */
-  color: #fff; /* Texte en blanc */
-  border-radius: 5px; /* Coins arrondis */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère sous le menu */
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 100%; /* Placer le menu juste sous l'élément parent */
+  left: 0; /* Aligner à gauche de l'élément parent */
+  right: auto;
+  z-index: 1050; /* S'assurer que le menu est au-dessus des autres éléments */
+  max-width: 90vw; /* Limiter la largeur du menu à 90% de la largeur de la fenêtre */
+  overflow-x: auto; /* Permettre un défilement horizontal si nécessaire */
+  transform: translateY(5px); /* Décaler légèrement le menu vers le bas pour mieux le positionner */
 }
 
-/* Liens du menu déroulant */
 .dropdown-menu a {
   color: #fff; /* Liens en blanc */
   padding: 10px 20px; /* Espacement interne des éléments */
   text-decoration: none; /* Enlever la sous-ligne */
 }
 
-/* Effet au survol des liens */
 .dropdown-menu a:hover {
   color: #646cff; /* Liens en bleu au survol */
   background-color: #f8f9fa; /* Fond clair au survol */
