@@ -1,10 +1,13 @@
 <template>
-  <div class="counter-container">
-    <input type="text" @keyUp="updateMessage" placeholder="Tapez votre texte ici">
-    <p>Texte saisi : {{ message }}</p>
-    <input type="text" @keyUp.esc="updateMessageAndEsc" placeholder="Tapez votre texte ici puis faites esc">
-    <p>Texte saisi : {{ escMessage }}</p>
+  <div class="container">
     <button @click="showAlert">Afficher une alerte</button>
+
+    <input type="text" @keyup="updateMessage" placeholder="Tapez votre texte ici">
+
+    <input type="text" @keyup.esc="updateMessageAndEsc" placeholder="Tapez votre texte ici puis faites esc">
+
+    <p>Texte saisi : {{ message }}</p>
+    <p>Texte saisi : {{ escMessage }}</p>
   </div>
 </template>
 
@@ -36,7 +39,7 @@ body {
   display: flex;
 }
 
-.counter-container {
+.container {
   margin-top: -100px;
   margin-left: 300px;
   display: flex;
@@ -66,11 +69,11 @@ p {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #343a40 ;
 }
 
 .text-white {
-  color: white !important;
+  color: white ;
 }
 
 .display-4 {

@@ -17,6 +17,8 @@
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lessonone">L'interpolation de texte</router-link></a>
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lessontwo">L'interpolation et méthodes</router-link></a>
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lessonthree">AttributeBinding</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lessonfour">V-Model</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lessonfive">Watchers</router-link></a>
           </div>
         </li>
 
@@ -24,11 +26,17 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLessons" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Exercices</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownLessons">
-            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exoone">Exercice (ref)</router-link></a>
-            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exotwo">Exercice (methods)</router-link></a>
-            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exothree">Exercice (databinding)</router-link></a>
-            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exofour">Exercice (DOMEvents)</router-link></a>
-            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exofive">Exercice (DOMEvents2)</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exoone">Ref</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exotwo">Methods</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exothree">databinding</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exofour">DOMEvents</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exofive">DOMEvents2</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exosix">Computed</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exoseven">Watchers</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exoeight">Dynamic Styling</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exonine">Dynamic Styling 2</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exoten">Dynamic Styling 3</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exoeleven">Conditional Rendering</router-link></a>
           </div>
         </li>
       </ul>

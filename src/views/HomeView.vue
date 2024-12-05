@@ -65,6 +65,11 @@
             <div class="d-flex align-items-start mb-4">
               <i class="bi bi-stack fs-2 text-primary me-3"></i>
               <div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 <h5>Organisation Centralisée</h5>
                 <p class="text-muted">
                   Tous vos cours et exercices disponibles au même endroit.
@@ -91,7 +96,12 @@
             </div>
           </div>
           <div class="col-md-6">
-
+            <img
+              src="../assets/Vue.js_Logo_2.svg.png"
+              class="img-fluid rounded shadow"
+              alt="Illustration des fonctionnalités"
+              width="500px"
+            />
           </div>
         </div>
       </div>
