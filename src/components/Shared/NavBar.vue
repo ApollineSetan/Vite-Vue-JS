@@ -19,6 +19,8 @@
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lessonthree">AttributeBinding</router-link></a>
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lessonfour">V-Model</router-link></a>
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lessonfive">Watchers</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lessonsix">List Rendering</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lessonseven">Props Parent/enfant</router-link></a>
           </div>
         </li>
 
@@ -37,6 +39,9 @@
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exonine">Dynamic Styling 2</router-link></a>
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exoten">Dynamic Styling 3</router-link></a>
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exoeleven">Conditional Rendering</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exotwelve">List Rendering</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exothirteen">List Rendering 2</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exofourteen">Props</router-link></a>
           </div>
         </li>
       </ul>

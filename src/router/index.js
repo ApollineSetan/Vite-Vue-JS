@@ -39,6 +39,16 @@ const router = createRouter({
             name: 'watcherslecon',
             component: () => import('../exos/WatchersLecon.vue')
         },
+        {
+            path: '/lessonsix',
+            name: 'lessonlistrendering',
+            component: () => import('../exos/LessonListRendering.vue')
+        },
+        {
+            path: '/lessonseven',
+            name: 'onefriendparentlesson',
+            component: () => import('../exos/OneFriendParentLesson.vue')
+        },
 
 // Exercices
 
@@ -96,6 +106,21 @@ const router = createRouter({
             path: '/exoeleven',
             name: 'conditionalrendering',
             component: () => import('../exos/ConditionalRendering.vue')
+        },
+        {
+            path: '/exotwelve',
+            name: 'exercicelistrendering',
+            component: () => import('../exos/ExerciceListRendering.vue')
+        },
+        {
+            path: '/exothirteen',
+            name: 'exercicelistrendering2',
+            component: () => import('../exos/ExerciceListRendering2.vue')
+        },
+        {
+            path: '/exofourteen',
+            name: 'onefriendparent',
+            component: () => import('../exos/OneFriendParent.vue')
         },
     ]
 });
