@@ -55,7 +55,8 @@ const router = createRouter({
         {
             path: '/exoone',
             name: 'Exocomposition',
-            component: () => import('../exos/ExoComposition.vue')
+            component: () => import('../exos/ExoComposition.vue'),
+            props: true
         },
         {
             path: '/exotwo',
@@ -122,6 +123,34 @@ const router = createRouter({
             name: 'onefriendparent',
             component: () => import('../exos/OneFriendParent.vue')
         },
+        {
+            path: '/exofifteen',
+            name: 'composantdynamique',
+            component: () => import('../exos/ComposantDynamique.vue')
+        },
+        {
+            path: '/exosixteen',
+            name: 'fetchAPI',
+            component: () => import('../exos/FetchAPI.vue')
+        },
+
+
+// Exercices Router
+
+        {
+            path: '/lesson-router',
+            name: 'lessonrouter',
+            component: () => import('../components/Shared/LessonRouterView.vue')
+        },
+        {
+            path: '/details/:id',
+            name: 'detailspage',
+            component: () => import('../components/Shared/DetailsPage.vue'),
+            props: true
+        },
+
+
+
     ]
 });
 

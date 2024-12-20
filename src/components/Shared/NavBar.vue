@@ -42,6 +42,9 @@
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exotwelve">List Rendering</router-link></a>
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exothirteen">List Rendering 2</router-link></a>
             <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exofourteen">Props</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exofifteen">Composant dynamique</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/exosixteen">Fetch API</router-link></a>
+            <a class="dropdown-item" href="#"><router-link class="nav-link active" aria-current="page" to="/lesson-router">Exercice particulier</router-link></a>
           </div>
         </li>
       </ul>
